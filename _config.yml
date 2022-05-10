@@ -1,0 +1,5 @@
+defaults:
+exclude:
+  - README.md
+  - LICENSE.md
+  - CNAME
