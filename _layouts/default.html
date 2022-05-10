@@ -1,0 +1,69 @@
+---
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>{{ page.title }}</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="{{ site.baseurl }}/css/font.css" rel="stylesheet" type="text/css">
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="{{ site.url }}/css/normalize.css">
+  <link rel="stylesheet" href="{{ site.url }}/css/skeleton.css">
+  <link rel="stylesheet" href="{{ site.url }}/css/mopsy.css">
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/x-icon" href="{{ site.url }}/assets/favicon.png">
+
+</head>
+<body>
+<div class="container">
+
+<header>
+<div class="row">
+    <div class="column">
+    <a href="{{ site.baseurl }}/"><h1>moPsy</h1></a>
+    </div>
+</div>
+</header>
+
+<div class="row">
+    <div class="two-thirds column content">
+      {{ content }}
+    </div>
+    
+    
+    <div class="one-third column sidebar">
+        <nav>
+        </nav>
+    </div>
+</div>
+
+<footer>
+<div class="row">
+    <div class="one-half column">
+      <span>&copy; 2022 Stefan Haun</span>
+    </div>
+    <div class="one-half column">
+      <span>CSS framework by <a href="https://github.com/dhg/Skeleton/" target="_blank">Skeleton</a></span>
+    </div>
+</div>
+</footer>
+
+</div>
+</body>
+</html>
