@@ -1,4 +1,4 @@
-# mopsy.penguineering.com
+# www.mopsy-music.de
 
 > moPsy music project homepage
 
