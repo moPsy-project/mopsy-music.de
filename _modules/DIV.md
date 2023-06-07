@@ -18,7 +18,7 @@ availability:
   # Lifecycles: concept, dev, prod, discontinued
   lifecycle: prod
   shops:
-  - label: Finished Module on Etsy
+  - label: Assembled Module on Etsy
     url: https://www.etsy.com/de-en/listing/1496940825/mopsy-div-eurorack-modul
 dimensions:
   width: 4 HP
