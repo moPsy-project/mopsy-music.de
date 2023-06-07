@@ -46,6 +46,7 @@
   <div class="one-half column">
   <nav>
     <a class="button {% unless page.nav %}button-primary{% endunless %}" href="{% link index.html %}">About</a>
+    <a class="button {% if page.nav=='modules' %}button-primary{% endif %}" href="{% link modules.html %}">Modules</a>
   </nav>
   </div>
   <div class="one-half column" style="text-align: right;">
@@ -57,9 +58,7 @@
 
 </div>
 
-<div class="row">
 {{ content }}
-</div>
 
 <footer>
 <div class="row">
