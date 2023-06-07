@@ -131,3 +131,31 @@ div.module-stats  li.doc:before {
   background-repeat: no-repeat;
 }
 
+div.module-stats li.github {
+  list-style: none
+}
+div.module-stats  li.github:before {
+  content: '';
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  padding-right: 1em;
+  background-image: url('/assets/github-mark.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+div.module-stats li.modulargrid {
+  list-style: none
+}
+div.module-stats  li.modulargrid:before {
+  content: '';
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  padding-right: 1em;
+  background-image: url('/assets/unicorn_avatar.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
