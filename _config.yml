@@ -2,7 +2,7 @@ defaults:
 
 exclude:
   - README.md
-  - LICENSE.md
+  - MIT.md
   - CNAME
   - Gemfile
   - Gemfile.lock
