@@ -1,0 +1,17 @@
+---
+layout: frame
+nav: modules
+permalink: /modules
+---
+
+<div class="row">
+  <div class="twelve column content" style="text-align: center;">
+
+{% for module in site.modules %}
+<div class="module-panel">
+  <a href="{{ module.url}}"><img src="{{ site.baseurl }}/assets/modules/{{module.panel}}" alt="{{module.name}}"/></a>
+</div>
+{% endfor %}
+
+  </div>
+</div>
