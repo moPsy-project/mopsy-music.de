@@ -10,7 +10,7 @@ exclude:
 
 # Sass/SCSS
 sass:
-  sass_dir: _sass
+  sourcemap: development
   style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
 
 # Build settings
