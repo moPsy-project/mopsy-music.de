@@ -14,7 +14,7 @@ Follow the terminal output for information on how to access the website.
 
 ## License
 
-©2022 Stefan Haun
+© 2022-2023 Stefan Haun
 
 Uses [Skeleton](https://github.com/dhg/Skeleton/) with the [MIT License](MIT.md).
 
