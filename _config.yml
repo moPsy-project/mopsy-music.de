@@ -1,7 +1,14 @@
 defaults:
+
 exclude:
   - README.md
   - LICENSE.md
   - CNAME
   - Gemfile
   - Gemfile.lock
+  - docker-compose.yml
+
+# Development Settings
+port: 4000
+host: 127.0.0.1
+safe: false

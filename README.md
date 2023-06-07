@@ -3,14 +3,15 @@
 > moPsy music project homepage
 
 
-## Run Locally with Jekyll
+## Run locally
 
-During development, the following is more convenient:
 ```bash
-jekyll serve -l
+docker-compose up
 ```
 
-Follow the terminal output for information on how to access the website.
+Access the website as http://127.0.0.1:4000
+
+When you are done, do not forget to remove the deployment with `docker-compose down`.
 
 ## License
 
