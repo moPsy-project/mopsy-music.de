@@ -1,8 +1,10 @@
+---
 # moPsy CSS
+---
 
 :root {
-  --base-color: #687e7b;
-  --accent-color: #996666;
+  --base-color: black;
+  --accent-color: #fdff00ff;
 }
 
 body {
@@ -11,11 +13,13 @@ body {
 }
 
 header {
-  border-bottom: 5px solid var(--base-color);
+  border-bottom: 5px solid black;
   margin-right: 0em;
   margin-left: 0em;
   margin-bottom: 0.5em;
-  background-image: url("/assets/header.png");
+  background-image: url("/assets/moPsy_logo_yellow.png") , url("/assets/header.png");
+  background-repeat: no-repeat;
+  background-position: 20px,0 center;
   text-align: left;
   min-height: 160px;
 }
