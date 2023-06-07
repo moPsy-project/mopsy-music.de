@@ -22,7 +22,15 @@ layout: frame
   {% if page.documentation %}
   <h3>Documentation</h3>
   <ul>
-  {% for doc in page.documentation %}
+  {% if page.documentation.github %}
+    <li class="github"><a href="{{ page.documentation.github }}" target="_blank">GitHub</a></li>
+  {% endif %}
+
+  {% if page.documentation.modulargrid %}
+    <li class="modulargrid"><a href="{{ page.documentation.modulargrid }}" target="_blank">ModularGrid</a></li>
+  {% endif %}
+
+  {% for doc in page.documentation.others %}
     <li class="doc"><a href="{{ doc.url }}" target="_blank">{{ doc.label }}</a></li>
   {% endfor %}
   </ul>
