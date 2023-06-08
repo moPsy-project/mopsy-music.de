@@ -2,7 +2,7 @@
 layout: module
 nav: modules
 name: DIV
-short: Simple clock divider, similar to the Doepfer A-160-1.
+short: 6-stage Clock Divider
 panel: DIV/frontpanel.png
 picture: DIV/div-case-shot-frame.png
 width: 4
@@ -29,6 +29,9 @@ current:
   V5: --
 
 ---
-This module works as a rhythm and clock divider, as expected, but also accepts audio frequencies and happily scales your waves down by several octaves (bear in mind that the output will be 50% PWM).
+The <b>moPsy DIV</b> module is a rhythm and clock divider with six output stages, similar to the Doepfer A-160-1.
 
-The reset input can be configured for triggers from the bus gate.
+It accepts <b>audio frequencies</b> and happily scales them down by several octaves.
+(Bear in mind that the output will be 50% PWM.)
+
+The reset input can be configured to trigger from the bus gate with a jumper.
