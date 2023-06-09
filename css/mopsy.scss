@@ -178,11 +178,21 @@ div.funding div.content {
   padding-right: 0.5em;
 }
 
+footer nav {
+    text-align: right;
+}
+
 @media (max-width: 600px) {
     #navbar a.button {
       display: block;
     }
+
+    footer,
+    footer nav {
+        text-align: center;
+    }
 }
+
 @media (max-width: 550px) {
     #navbar img {
       display: none;
