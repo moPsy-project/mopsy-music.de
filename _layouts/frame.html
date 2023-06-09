@@ -50,10 +50,9 @@
   </nav>
   </div>
   <div class="one-half column" style="text-align: right;">
-  <nav>
-    <a class="button {% if page.nav=='impressum' %}button-primary{% endif %}" href="{% link impressum.md %}">Impressum</a>
-    <a class="button {% if page.nav=='datenschutz' %}button-primary{% endif %}"" href="{% link datenschutz.md %}">Datenschutzerklärung</a>
-  </nav>
+    <a href="https://www.patreon.com/penguineer" target="_blank"><img src="/assets/Digital-Patreon-Logo_FieryCoral.png" alt="Patreon" /></a>
+    <a href="https://ko-fi.com/penguineer" target="_blank"><img src="/assets/kofilogo_bluebg.png" alt="Ko-Fi" /></a>
+    <a href="https://github.com/sponsors/penguineer" target="_blank"><img src="/assets/github-mark.png" alt="GitHub" /></a>
   </div>
 
 </div>
@@ -62,11 +61,18 @@
 
 <footer>
 <div class="row">
-    <div class="one-half column">
+    <div class="eight columns">
       <span>&copy; 2022-2023 Stefan Haun</span>
     </div>
-    <div class="one-half column" style="text-align: right;">
-      <span>CSS framework by <a href="https://github.com/WhatsNewSaes/Skeleton-Sass" target="_blank">Skeleton-Sass</a></span>
+    <div class="two columns">
+        <nav>
+            <a href="{% link impressum.md %}">Impressum</a>
+        </nav>
+    </div>
+    <div class="two columns">
+        <nav>
+            <a href="{% link datenschutz.md %}">Datenschutz</a>
+        </nav>
     </div>
 </div>
 </footer>
