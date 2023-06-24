@@ -11,7 +11,7 @@ documentation:
   modulargrid: https://www.modulargrid.net/e/other-unknown-mopsy-div
   others:
     - label: User Manual v1.1
-      url: https://github.com/moPsy-project/div/releases/download/v1.1/DIV_User_Manual.pdf
+      url: https://github.com/moPsy-project/div/releases/download/v1.1/DIV_v1.1_User_Manual.pdf
     - label: Assembly Guide v1.1
       url: https://github.com/moPsy-project/div/releases/download/v1.1/DIV_v1.1_Assembly_Guide.pdf
 availability:
