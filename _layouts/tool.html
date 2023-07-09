@@ -1,0 +1,81 @@
+---
+layout: frame
+---
+
+<div class="row module-header">
+  <div class="twelve column content">
+    <h2>{{page.name}}</h2>
+    <p>{{ page.short }}</p>
+  </div>
+</div>
+
+
+
+<div class="row">
+  <div class="two-thirds column content module-description">
+    <img src="{{ site.baseurl }}/assets/tools/{{page.picture}}" alt="{{module.name}}"/></a>
+    {{ content }}
+  </div>
+
+  <div class="one-third column content module-stats">
+
+  {% if page.documentation %}
+  <h3>Documentation</h3>
+  <ul>
+  {% if page.documentation.github %}
+    <li class="github"><a href="{{ page.documentation.github }}" target="_blank">GitHub</a></li>
+  {% endif %}
+
+  {% for doc in page.documentation.others %}
+    <li class="doc"><a href="{{ doc.url }}" target="_blank">{{ doc.label }}</a></li>
+  {% endfor %}
+  </ul>
+  {% endif %}
+
+
+
+  {% if page.availability %}
+  <h3>Availability</h3>
+  {% if page.availability.lifecycle == 'prod' %}
+  <p style="text-align: right; margin-top: -3em;">available</p>
+  {% endif %}
+
+  {% if page.availability.shops %}
+  <ul>
+  {% for shop in page.availability.shops %}
+    <li class="shop"><a href="{{ shop.url }}" target="_blank">{{ shop.label }}</a></li>
+  {% endfor %}
+  </ul>
+  {% endif %}
+
+  {% endif %}
+
+
+  {% if page.dimensions %}
+  <h3>Dimensions</h3>
+  <table>
+    <tr><td class="dt">Height</td><td>{{ page.dimensions.height }}</td></tr>
+    <tr><td class="dt">Width</td><td>{{ page.dimensions.width }}</td></tr>
+  </table>
+  {% endif %}
+
+
+
+  {% if page.current %}
+  <h3>Power Consumption</h3>
+  <table>
+    <tr><td class="dt">+12V</td><td>{{ page.current.V12p }}</td></tr>
+    <tr><td class="dt">-12V</td><td>{{ page.current.V12n }}</td></tr>
+    <tr><td class="dt">+5V</td><td>{{ page.current.V5 }}</td></tr>
+  </table>
+  {% endif %}
+
+  </div>
+</div>
+
+
+<div class="row">
+  <div class="twelve column content" style="text-align: center;">
+    <a href="{% link tools.html %}">Back to Tools overview</a>
+  </div>
+</div>
