@@ -1,0 +1,17 @@
+---
+layout: frame
+nav: tools
+permalink: /tools
+---
+
+<div class="row">
+  <div class="twelve column content" style="text-align: center;">
+
+{% for tool in site.tools %}
+<div class="module-panel">
+  <a href="{{ tool.url}}"><img src="{{ site.baseurl }}/assets/tools/{{tool.outline}}" alt="{{tool.name}}"/></a>
+</div>
+{% endfor %}
+
+  </div>
+</div>
