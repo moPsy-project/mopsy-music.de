@@ -4,6 +4,10 @@ collections:
   modules:
     output: true
     permalink: /:collection/:name
+  tools:
+    output: true
+    permalink: /:collection/:name
+
 
 exclude:
   - README.md
