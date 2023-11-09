@@ -9,7 +9,7 @@ documentation:
   github: https://github.com/moPsy-project/eurorack-power-breakout
   others:
     - label: User Manual v1.1
-      url: https://github.com/moPsy-project/eurorack-power-breakout/releases/download/v1.1/Eurorack_Power_Breakout_User_Manual_v1.1.pdf/DIV_v1.1_User_Manual.pdf
+      url: https://github.com/moPsy-project/eurorack-power-breakout/releases/download/v1.1/Eurorack_Power_Breakout_User_Manual_v1_1.pdf
 availability:
   # Lifecycles: concept, dev, prod, discontinued
   lifecycle: prod
