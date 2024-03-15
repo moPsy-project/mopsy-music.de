@@ -20,6 +20,8 @@ availability:
   shops:
   - label: Assembled Module on Etsy
     url: https://www.etsy.com/de-en/listing/1496940825/mopsy-div-eurorack-modul
+  - label: DIY Full Kit on Etsy
+    url: https://www.etsy.com/de-en/listing/1689609547/mopsy-div-full-kit-6-stage-clock-divider
 dimensions:
   width: 4 HP
   depth: 40 mm
