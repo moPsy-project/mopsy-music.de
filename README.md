@@ -6,7 +6,7 @@
 ## Run locally
 
 ```bash
-docker-compose up
+docker compose up
 ```
 
 Access the website as http://127.0.0.1:4000
