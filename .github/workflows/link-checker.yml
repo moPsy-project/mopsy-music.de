@@ -16,7 +16,7 @@ jobs:
           id: lychee
           uses: lycheeverse/lychee-action@v1.10.0
           with:
-            args: --verbose https://www.mopsy-music.de --exclude "https://www.patreon.com/penguineer"
+            args: -vvv -n -m 100 --accept 200,403,429,500 --user-agent 'curl/8.9.0' https://www.mopsy-music.de
 
         - name: Create Issue From File
           if: env.lychee_exit_code != 0
