@@ -8,6 +8,8 @@ picture: EurorackPowerBreakout/breadboard-shot.png
 documentation:
   github: https://github.com/moPsy-project/eurorack-power-breakout
   others:
+    - label: User Manual v1.2
+      url: https://github.com/moPsy-project/eurorack-power-breakout/releases/download/v1.2/Eurorack_Power_Breakout_User_Manual_v1_2.pdf
     - label: User Manual v1.1
       url: https://github.com/moPsy-project/eurorack-power-breakout/releases/download/v1.1/Eurorack_Power_Breakout_User_Manual_v1_1.pdf
 availability:
