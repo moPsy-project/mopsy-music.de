@@ -17,6 +17,7 @@ jobs:
           uses: lycheeverse/lychee-action@v2.0.2
           with:
             args: -vvv -n -m 100 --accept 200,403,429,500 --user-agent 'curl/8.9.0' https://www.mopsy-music.de
+            fail: false # Don't fail action on broken links
 
         - name: Create Issue From File
           if: env.lychee_exit_code != 0
