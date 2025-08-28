@@ -14,7 +14,7 @@ jobs:
 
         - name: Link Checker
           id: lychee
-          uses: lycheeverse/lychee-action@v1.10.0
+          uses: lycheeverse/lychee-action@v2.0.2
           with:
             args: -vvv -n -m 100 --accept 200,403,429,500 --user-agent 'curl/8.9.0' https://www.mopsy-music.de
 
